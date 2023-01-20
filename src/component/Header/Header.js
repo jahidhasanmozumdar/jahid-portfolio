@@ -1,11 +1,15 @@
-import React from 'react';
-import CTA from './Cv';
-import HeaderSocials from './headerSocial';
-import './Header.css';
+import React from "react";
+import CTA from "./Cv";
+import HeaderSocials from "./headerSocial";
+import "./Header.css";
+import Anim from "../Anim/Anim";
+
 
 const Header = () => {
+
   return (
     <header id="home">
+        <Anim></Anim>
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Jahid hasan</h1>
