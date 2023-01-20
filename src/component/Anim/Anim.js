@@ -84,7 +84,7 @@ const Anim = () => {
                 duration: 0.8,
                 easing: "ease-out-quad",
                 factor: 1,
-                maxSpeed: 50,
+                maxSpeed: 500,
                 speed: 1,
               },
               bounce: {
