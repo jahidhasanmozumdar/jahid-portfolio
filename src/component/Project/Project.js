@@ -1,5 +1,5 @@
 import React from "react";
-import IMG1 from "../../Asset/Screenshot_20230115_082008.png";
+import IMG1 from "../../Asset/Screenshot 2023-04-13 140857.jpg";
 import IMG2 from "../../Asset/Screenshot 2023-01-20 094519.jpg";
 import IMG3 from "../../Asset/Screenshot 2023-01-20 095107.jpg";
 import "./Project.css";
@@ -8,13 +8,13 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Photography Website with React.js",
+      title: "Movie Website with React.js",
       img: IMG1,
       description:
-        "An Photography website is a huge interactive platform to present various information for people.",
+        "An Movie website is a huge interactive platform to present various information for people.",
       technologies: "Html | CSS | Javascript | React Js",
-      link: "https://jahid-photography.netlify.app/",
-      github: "https://github.com/jahidhasanmozumdar/photography-server",
+      link: "https://cozy-raindrop-42ec5b.netlify.app/",
+      github: "https://github.com/jahidhasanmozumdar/Disney-clone",
     },
     {
       id: 2,
@@ -34,7 +34,8 @@ const Portfolio = () => {
         "This site is a kind of educational platform. You can add course  and post your Course.",
       technologies: "React | Firebase | Tailwind",
       link: "https://glowing-llama-208283.netlify.app/",
-      github: "https://github.com/jahidhasanmozumdar/hero-courses-client/tree/main/hero-courses",
+      github:
+        "https://github.com/jahidhasanmozumdar/hero-courses-client/tree/main/hero-courses",
     },
   ];
 
