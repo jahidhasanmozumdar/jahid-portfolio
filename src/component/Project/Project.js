@@ -1,5 +1,5 @@
 import React from "react";
-import IMG1 from "../../Asset/Screenshot 2023-04-13 140857.jpg";
+import IMG1 from "../../Asset/Screenshot 2024-03-01 032643.png";
 import IMG2 from "../../Asset/Screenshot 2023-01-20 094519.jpg";
 import IMG3 from "../../Asset/Screenshot 2023-01-20 095107.jpg";
 import "./Project.css";
@@ -8,13 +8,13 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Movie Website with React.js",
+      title: "E-commerce Website with React.js",
       img: IMG1,
       description:
-        "An Movie website is a huge interactive platform to present various information for people.",
+        "An E commerce website is a huge interactive platform to present various information for people.",
       technologies: "Html | CSS | Javascript | React Js",
-      link: "https://cozy-raindrop-42ec5b.netlify.app/",
-      github: "https://github.com/jahidhasanmozumdar/Disney-clone",
+      link: "https://65e0e5a451e5ed24ed300f27--wondrous-sable-83b218.netlify.app/",
+      github: "https://github.com/jahidhasanmozumdar/cyberstore",
     },
     {
       id: 2,
